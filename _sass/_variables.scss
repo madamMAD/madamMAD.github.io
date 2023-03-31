@@ -41,6 +41,7 @@ $type-size-5                : 1em;      // ~16px
 $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
+$type-size-9                : 0.525em;  // 
 
 
 /*
@@ -141,6 +142,16 @@ $susy: (
   // ),
 );
 
+
+/*
+   Progress bars
+   ========================================================================== */
+$small_height                      : 10px;
+$small_radius                      : 5px;
+$progress_padding                   : 5px;
+
+$medium_height                     : 16px;
+$medium_radius                     : 8px;
 
 /*
    Other

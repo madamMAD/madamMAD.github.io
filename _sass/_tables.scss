@@ -2,17 +2,21 @@
    TABLES
    ========================================================================== */
 
+
 table {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border-bottom: 1px dotted;
+  margin-top: 2em;
+}
 
-  & + table {
-    margin-top: 1em;
-  }
+.job_duration {
+  text-align: right;
+  font-size: $type-size-5;
+  font-style: italic;
 }
 
 thead {
@@ -20,19 +24,56 @@ thead {
   border-bottom: 1px solid $light-gray;
 }
 
+
 th {
-  padding: 0.5em;
+  padding: 0em;
+  font-weight: bold;
+  text-align: left;
+  border: none;
+}
+
+td {
+  padding: 0em;
+  border: none;
+}
+
+
+table_orig {
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  border-collapse: collapse;
+  border: 0px solid $light-gray;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+th_orig {
+  padding: 0em;
   font-weight: bold;
   text-align: left;
   border-right: 1px solid $light-gray;
 }
 
-td {
-  padding: 0.5em;
+td_orig {
+  padding: 0em;
   border-bottom: 1px solid $light-gray;
   border-right: 1px solid $light-gray;
 }
 
 tr, td, th {
   vertical-align: middle;
+}
+
+.progress-container2::before {
+  content: "hellooo";
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 90%;
+  background: turquoise;
 }

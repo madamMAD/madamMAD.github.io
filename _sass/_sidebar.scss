@@ -105,6 +105,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -123,12 +124,13 @@
 
 .author__bio {
   margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
 }
+
+ul.author__skills {
+  margin-left: -5em;
+  list-style-type: none;
+}
+
 
 .author__urls-wrapper {
   position: relative;
