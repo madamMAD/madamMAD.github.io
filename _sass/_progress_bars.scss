@@ -1,0 +1,45 @@
+/* ==========================================================================
+   PROGRESS BARS
+   ========================================================================== */
+
+progress {
+  padding-bottom: progress_padding;
+  border: 0;
+  height: $medium_height;
+  border-radius: $medium_radius;
+  margin: 0;
+  vertical-align: top;
+}
+
+progress::-webkit-progress-bar {
+  padding-bottom: progress_padding;
+  border: 1px solid black;
+  height: $medium_height;
+  border-radius: $medium_radius;
+  background-color: $code-background-color;
+  vertical-align: top;
+}
+progress::-webkit-progress-value {
+  border:0;
+  height: $medium_height;
+  border-radius: $medium_radius;
+  background-color: grey;
+  vertical-align: top;
+}
+
+/* rgb(108, 201, 186) */
+
+progress::-moz-progress-bar {
+  padding-bottom: progress_padding;
+  border: 1px solid black;
+  height: $medium_height;
+  border-radius: $medium_radius;
+  background-color: $code-background-color;
+  vertical-align: top;
+}
+
+.progress-label {
+  position: relative;
+  margin: 0;
+  vertical-align: bottom;
+}
