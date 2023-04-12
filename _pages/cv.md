@@ -238,8 +238,8 @@ Education
 
 Volunteering
 ======
-<table style="border-bottom:none;">
-  <tr>
+<table style="border-bottom:none;margin-bottom:0em;">
+  <tr  style="padding:0em;">
     <td><b>President</b></td>
     <td> <div class="job_duration">
     2014 - 2015 </div>
@@ -249,16 +249,8 @@ Volunteering
     <td colspan="2">Student association BEST Gothenburg</td>
   </tr>
 </table>
-
 Managed an association which main goal was organizing events about technology for local and European students.
 
-<!--
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  -->
 
 
 

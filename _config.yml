@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Mariana's Corner"
 title_separator          : "-"
-name                     : &name "Mariana Alves David"
+name                     : &name "Mariana AD"
 description              : &description "Coding one line at the time"
 url                      : https://madammad.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mariana Alves David"
+  name             : "Mariana AD"
   avatar           : "mariana_forest2.jpg"
   bio              : " Available to join your team!  <br/><br/>
-  With my five years' experience,
+  With five years' experience,
    I can be your data analyst, software developer and
    inquisitive colleague to examine ideas with.
  "
   skills           : "<li>Python</li><li>Data analysis</li>"
-  location         : "Portugal"
+  location         : "Porto, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -183,12 +183,6 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -222,24 +216,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
