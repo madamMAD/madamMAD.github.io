@@ -27,11 +27,11 @@ Quick look
         <div class="progress-container">
           <progress max="100" value="100"></progress>
         </div>
-      </div>
+      </div>  
     </td>
         <td width="50%" rowspan="5" style="vertical-align:top;">
     <ul style="margin-left:-15px;">
-      <li>.NET Framework</li>
+      <li>.NET Framework (C#, C++/CLI)</li>
       <li>PySpark</li>
       <li>AWS</li>
       <li>AirFlow</li>
