@@ -149,7 +149,7 @@ Work experience
   <tr>
     <td><b>Klimator</b> <span style="font-size:0.75em;font-style:none;">&ensp;(Sweden)</span></td>
     <td> <div class="job_duration">
-    2020 Dec - 2023 Jan
+    2021 Dec - 2023 Jan
           </div>
     </td>
   </tr> 
